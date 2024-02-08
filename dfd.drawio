@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T06:10:57.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="F28dZf8L71ecR85J0oK3" version="23.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-08T06:26:00.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TE9XwGSxj56o4kga9Qz_" version="23.1.2" type="github" pages="2">
   <diagram name="Page-1" id="-Sywtne5fucH26ypkc1I">
     <mxGraphModel dx="1562" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -246,6 +246,100 @@
         </mxCell>
         <mxCell id="3kuebskyaLOTGlhjLFNJ-21" value="Rack number and number&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="210" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-1" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="3kuebskyaLOTGlhjLFNJ-19" target="3kuebskyaLOTGlhjLFNJ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="520" as="sourcePoint" />
+            <mxPoint x="-75" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-2" value="ISBN number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.304;entryY=1.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3kuebskyaLOTGlhjLFNJ-20" target="3kuebskyaLOTGlhjLFNJ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="440" as="sourcePoint" />
+            <mxPoint x="40" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-4" value="Book return" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3kuebskyaLOTGlhjLFNJ-19" target="SnvjekUSrRoezJBVetxy-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="480" as="sourcePoint" />
+            <mxPoint x="40" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="310" />
+              <mxPoint x="150" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-6" value="Make book slip available" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SnvjekUSrRoezJBVetxy-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="247" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-9" value="Add a member" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-10" value="Add a unique mebership number" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.469;exitY=0.958;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SnvjekUSrRoezJBVetxy-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="440" as="sourcePoint" />
+            <mxPoint x="240" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="436" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-12" value="Book issue reuqest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="475" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-14" value="Book issurance" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.04;exitY=0.416;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SnvjekUSrRoezJBVetxy-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="440" as="sourcePoint" />
+            <mxPoint x="-10" y="633" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-16" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-17" value="Mark book as issued" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.051;exitY=0.628;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3kuebskyaLOTGlhjLFNJ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="570" as="sourcePoint" />
+            <mxPoint x="210" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-19" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;If overdue&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SnvjekUSrRoezJBVetxy-18">
+          <mxGeometry x="0.2987" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SnvjekUSrRoezJBVetxy-20" value="Print reminder message" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="335" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
